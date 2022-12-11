@@ -1,5 +1,8 @@
 package link.rezimaulana.livecodspring.service;
 
+import java.util.List;
+import java.util.Optional;
+
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +28,55 @@ public class BookService {
 		} catch(Exception e) {
 			response.setMessage(e.getMessage());
 			e.printStackTrace();
-			response.setMessage(ResponseConst.FAILED.getResponse());
+		}
+		return response;
+	}
+	
+	@Transactional(rollbackOn = Exception.class)
+	public ResponseDto update(final Book data) {
+		final ResponseDto response = new ResponseDto();
+		final Optional<Book> optional = bookDao.getById(data.getId());
+		if(optional.isPresent()) {
+			try {
+				final Book result = optional.get();
+				result.setTitle(data.getTitle());
+				result.setDescription(data.getDescription());
+				bookDao.update(result);
+				response.setMessage(ResponseConst.UPDATED.getResponse());
+			} catch (Exception e) {
+				response.setMessage(e.getMessage());
+				e.printStackTrace();
+			}
+		}
+		return response;
+	}
+	
+	public Book getById(final Long id) {
+		final Optional<Book> optional = bookDao.getById(id);
+		if(optional.isPresent()) {
+			final Book result = optional.get();
+			return result;
+		} else {
+			throw new RuntimeException("Not Found!");
+		}
+	}
+	
+	public List<Book> getAll(){
+		return bookDao.getAll();
+	}
+	
+	@Transactional(rollbackOn = Exception.class)
+	public ResponseDto deleteById(final Long id) {
+		final ResponseDto response = new ResponseDto();
+		final Optional<Book> optional = bookDao.getById(id);
+		if(optional.isPresent()) {
+			try {
+				bookDao.deleteById(id);
+				response.setMessage(ResponseConst.DELETED.getResponse());
+			} catch (Exception e) {
+				response.setMessage(e.getMessage());
+				e.printStackTrace();
+			}
 		}
 		return response;
 	}

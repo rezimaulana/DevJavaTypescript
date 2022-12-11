@@ -35,7 +35,7 @@ public class BookDao extends BaseDao {
 	
 	public boolean deleteById(final Long id) {
 		final String sql = "DELETE FROM Book WHERE id = :id";
-		final int result = this.em.createQuery(sql, Book.class).setParameter("id", id).executeUpdate();
+		final int result = this.em.createQuery(sql).setParameter("id", id).executeUpdate();
 		return result > 0;
 	}
 	

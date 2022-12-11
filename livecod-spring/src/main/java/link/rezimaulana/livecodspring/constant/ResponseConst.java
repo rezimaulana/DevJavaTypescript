@@ -2,7 +2,7 @@ package link.rezimaulana.livecodspring.constant;
 
 public enum ResponseConst {
 
-	CREATED("Created"), UPDATED("Updated"), DELETED("Deleted"), FAILED("Failed");
+	CREATED("Created"), UPDATED("Updated"), DELETED("Deleted");
 	
 	private final String response;
 	
