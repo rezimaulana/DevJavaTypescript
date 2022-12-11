@@ -34,6 +34,9 @@ public class MainView {
 		case 9:
 			optPrime();
 			break;
+		case 10:
+			optFibonacci();
+			break;
 		default:
 			throw new IllegalArgumentException("Unexpected value: " + mainMenuOpt);
 		}
@@ -57,6 +60,11 @@ public class MainView {
 	private void optPrime() {
 		final PrimeView primeView = new PrimeView(this);
 		primeView.show();
+	}
+	
+	private void optFibonacci() {
+		final FibonacciView fibonacciView = new FibonacciView(this);
+		fibonacciView.show();
 	}
 	
 	private void exit() {
