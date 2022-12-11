@@ -13,12 +13,21 @@ import javax.persistence.ManyToOne;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 
 import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "tb_library")
+@Table(
+		name = "tb_library",
+		uniqueConstraints = { 
+			@UniqueConstraint(
+					name = "library_ck", 
+					columnNames = { "book_id", "author_id" }
+			) 
+		}	
+	)
 public class Library {
 	
 	@Id
