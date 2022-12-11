@@ -27,6 +27,15 @@ public class MainView {
 			break;
 		case 7:
 			optGatcha();
+			break;			
+		case 2:
+			optSeparator();
+			break;
+		case 3:
+			optMaksMin();
+			break;
+		case 4:
+			optCase123();
 			break;
 		case 8:
 			optOddEven();
@@ -45,6 +54,16 @@ public class MainView {
 	private void optArray() {
 		final ArrayView arrayView = new ArrayView();
 		arrayView.show();
+	}
+	
+	private void optSeparator() {
+		final SeparatorView separatorView = new SeparatorView(this);
+		separatorView.show();
+	}
+	
+	private void optMaksMin() {
+		final MaksMinView maksMinView = new MaksMinView(this);
+		maksMinView.show();
 	}
 	
 	private void optGatcha() {
