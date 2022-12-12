@@ -23,7 +23,15 @@ public class PascalView {
 	    	}
 	    	System.out.println();
     	}
+	    output();
 	}
+	
+	// 3 / (0*3)
+	// 6 / (1*6) = 1
+	// 3 / (1*2)
+	// 6 / (1*2) = 3
+	
+	// 2 / (1*1) = 2
 	
 	private long factorial(int n) {
 		long z =1;
