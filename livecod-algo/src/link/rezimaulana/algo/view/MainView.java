@@ -19,15 +19,16 @@ public class MainView {
 		System.out.print("Pilih Opsi : ");
 		final byte mainMenuOpt = ScannerUtil.scanByte.nextByte();
 		switch (mainMenuOpt) {
+		case 7:
+			optGatcha();
+			break;
+			
 		case 0:
 			exit();
 			break;
 		case 1:
 			optArray();
 			break;
-		case 7:
-			optGatcha();
-			break;			
 		case 2:
 			optSeparator();
 			break;
@@ -36,6 +37,12 @@ public class MainView {
 			break;
 		case 4:
 			optCase123();
+			break;
+		case 5:
+			optCaseABC();
+			break;
+		case 6:
+			optPascal();
 			break;
 		case 8:
 			optOddEven();
@@ -52,7 +59,7 @@ public class MainView {
 	}
 	
 	private void optArray() {
-		final ArrayView arrayView = new ArrayView();
+		final ArrayView arrayView = new ArrayView(this);
 		arrayView.show();
 	}
 	
@@ -64,6 +71,20 @@ public class MainView {
 	private void optMaksMin() {
 		final MaksMinView maksMinView = new MaksMinView(this);
 		maksMinView.show();
+	}
+	
+	private void optCase123() {
+		final Case123View case123View = new Case123View(this);
+		case123View.show();
+	}
+	
+	private void optCaseABC() {
+		final CaseABCView caseABCView = new CaseABCView(this);
+		caseABCView.show();
+	}
+	private void optPascal() {
+		final PascalView pascalView = new PascalView(this);
+		pascalView.show();
 	}
 	
 	private void optGatcha() {
