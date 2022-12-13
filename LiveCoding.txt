@@ -1,0 +1,35 @@
+https://codingnconcepts.com/spring-boot/spring-initializr-for-eclipse-ide/
+
+Algoritma
+1. Array pake java
+2. Separator membalik kata tapi separator tetap ditempat
+3. Cari nilai maksimum dan minimum (Jumlah nilai minum tanpa nilai maksimum) (jumlah nilai maksimum tanpa nilai minimum)
+4. Cek true atau false dari array tersebut ada bilangan urut dari 1-3
+5. Ngecek kata ABC, jumlah samping kanan dan kiri, kalo sama itu true, kalo salah itu false
+6. Segitiga paskal
+7. Mesin gatcha
+10. Prima
+11. Fibonacci
+12. Ganjil Genap
+
+Backend
+1. Bikin API
+2. Java Basic Map
+3. 20 tipe data di java
+
+4. singleton, dependency injection
+5. Kekurangan Java
+6. Perbedaan get dan post(idempotent)
+7. Database pake One to one, bikin dummy lewat tabel, buat bk(ck)
+
+Frontend
+1. new project for 2
+2. generate interface
+
+3. form Control
+4. form group
+5. form builder validasi & form builder pipe
+
+
+6. html css manual bikin navbar
+7. consume table, pipe currency, filter currency tsb
