@@ -16,11 +16,33 @@ Backend
 1. Bikin API
 2. Java Basic Map
 3. 20 tipe data di java
+int
+Integer
+Boolean
+boolean
+String
+BigDecimal
+BigInteger
+Double
+Float
+Long
+LocalDate
+LocalDateTime
+LocalTime
+Date
+Byte
+Short
+Char
 
 4. singleton, dependency injection
 5. Kekurangan Java
 6. Perbedaan get dan post(idempotent)
 7. Database pake One to one, bikin dummy lewat tabel, buat bk(ck)
+8. English Presentation
+Http Req
+Http Res
+JPA
+Kelebihan Java
 
 Frontend
 1. new project for 2
