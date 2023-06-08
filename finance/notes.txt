@@ -1,6 +1,6 @@
 ===jpos-gateway===
 install
-gradle installApp ①
+gradle installApp
 build/install/gateway/bin/q2
 cd build/install/jpos-gateway/bin
 q2
