@@ -1,0 +1,12 @@
+===jpos-gateway===
+install
+gradle installApp ①
+build/install/gateway/bin/q2
+cd build/install/jpos-gateway/bin
+q2
+
+deploy
+curl.exe -o 10_channel_jpos.xml http://jpos.org/downloads/tutorials/gateway/10_channel_jpos.xml
+curl.exe -o 20_mux_jpos.xml http://jpos.org/downloads/tutorials/gateway/20_mux_jpos.xml
+curl.exe -o 30_txnmgr.xml http://jpos.org/downloads/tutorials/gateway/30_txnmgr.xml
+curl.exe -o 50_xml_server.xml http://jpos.org/downloads/tutorials/gateway/50_xml_server.xml
