@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2023-07-31T14:57:11.110248900">
+  <info>
+    Q2 started, deployDir=C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T14:57:11.792194800" lifespan="668ms">
+  <version>
+    jPOS 2.1.8-SNAPSHOT master/47232f0 (2023-02-21 16:12:24 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2023-07-31T14:57:11.837735600" lifespan="29ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\40_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T14:57:11.848736100" lifespan="8ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\60_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T14:57:11.875803" lifespan="24ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T14:57:11.966340100">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T14:57:12.120121" lifespan="1ms">
+  <info>
+           OS: Windows 10 (10.0)
+         Java: 11.0.2 (Oracle Corporation) AES-secure
+  environment: default
+ process name: 29552@DESKTOP-M123Z1R
+    user name: lawencon1
+         host: DESKTOP-M123Z1R/192.168.30.227
+          cwd: C:\Development\Projects\DevJavaTypescript\finance\jpos-client
+   free space: 320.4 GiB
+      version: 2.1.8-SNAPSHOT (47232f0)
+     instance: 69e56067-70ef-400c-8f21-fc15d60d1c18
+       uptime: 00:00:01.482 (-1.000000)
+   processors: 8
+       drift : 0
+memory(t/u/f): 252/43/208
+     encoding: windows-1252
+     timezone: Asia/Bangkok (Indochina Time) +07:00
+watch service: sun.nio.fs.WindowsWatchService
+  metrics dir: log
+        clock: 1690790232 2023-07-31T07:57:12.015583800Z
+ thread count: 13
+ peak threads: 13
+ user threads: 8
+        Thread[Reference Handler,10,system]
+        Thread[Finalizer,8,system]
+        Thread[Signal Dispatcher,9,system]
+        Thread[Attach Listener,5,system]
+        Thread[main,5,main]
+        Thread[pool-1-thread-1,5,main]
+        Thread[Q2-69e56067-70ef-400c-8f21-fc15d60d1c18,5,main]
+        Thread[FileSystemWatchService,5,main]
+        Thread[Timer-0,5,main]
+        Thread[channel-sender-jpos-send,5,main]
+        Thread[channel-receiver-jpos-receive,5,main]
+        Thread[SystemMonitor,5,main]
+        Thread[Common-Cleaner,8,InnocuousThreadGroup]
+name-registrar:
+  tspace:default: org.jpos.space.TSpace
+     key-count: 0
+        gcinfo: 0,0
+  mux.jpos: org.jpos.q2.iso.QMUX
+    tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=0
+  Q2: org.jpos.q2.Q2
+  jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+    tx=0, rx=0, connects=0, last=0
+  channel.jpos-channel: link.rezimaulana.jpos.client.channel.Channel
+  logger.Q2: org.jpos.util.Logger
+  logger.: org.jpos.util.Logger
+  logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="stdout" at="2023-07-31T14:57:16.374675900" lifespan="515ms">
+    Mengirim request
+</log>
+<log realm="stdout" at="2023-07-31T14:57:36.378263700" lifespan="501ms">
+    Tidak dapat response sampai timeout
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2023-07-31T14:58:43.061441200">
+  <info>
+    Q2 started, deployDir=C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T14:58:43.644429700" lifespan="565ms">
+  <version>
+    jPOS 2.1.8-SNAPSHOT master/47232f0 (2023-02-21 16:12:24 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2023-07-31T14:58:43.686779200" lifespan="25ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\40_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T14:58:43.697368" lifespan="7ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\60_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T14:58:43.722705900" lifespan="21ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T14:58:43.784793700">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T14:58:43.949505" lifespan="1ms">
+  <info>
+           OS: Windows 10 (10.0)
+         Java: 11.0.2 (Oracle Corporation) AES-secure
+  environment: default
+ process name: 30480@DESKTOP-M123Z1R
+    user name: lawencon1
+         host: DESKTOP-M123Z1R/192.168.30.227
+          cwd: C:\Development\Projects\DevJavaTypescript\finance\jpos-client
+   free space: 320.4 GiB
+      version: 2.1.8-SNAPSHOT (47232f0)
+     instance: e3581975-a2ac-4ea1-a90d-f61ea214abac
+       uptime: 00:00:01.391 (-1.000000)
+   processors: 8
+       drift : 0
+memory(t/u/f): 252/33/218
+     encoding: windows-1252
+     timezone: Asia/Bangkok (Indochina Time) +07:00
+watch service: sun.nio.fs.WindowsWatchService
+  metrics dir: log
+        clock: 1690790323 2023-07-31T07:58:43.836208Z
+ thread count: 13
+ peak threads: 13
+ user threads: 8
+        Thread[Reference Handler,10,system]
+        Thread[Finalizer,8,system]
+        Thread[Signal Dispatcher,9,system]
+        Thread[Attach Listener,5,system]
+        Thread[main,5,main]
+        Thread[pool-1-thread-1,5,main]
+        Thread[Q2-e3581975-a2ac-4ea1-a90d-f61ea214abac,5,main]
+        Thread[FileSystemWatchService,5,main]
+        Thread[Timer-0,5,main]
+        Thread[channel-sender-jpos-send,5,main]
+        Thread[channel-receiver-jpos-receive,5,main]
+        Thread[SystemMonitor,5,main]
+        Thread[Common-Cleaner,8,InnocuousThreadGroup]
+name-registrar:
+  tspace:default: org.jpos.space.TSpace
+    <key count='1'>jpos-channel.ready</key>
+     key-count: 1
+        gcinfo: 0,0
+  mux.jpos: org.jpos.q2.iso.QMUX
+    tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+  Q2: org.jpos.q2.Q2
+  jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+    tx=0, rx=0, connects=1, last=0
+  channel.jpos-channel: link.rezimaulana.jpos.client.channel.Channel
+  logger.Q2: org.jpos.util.Logger
+  logger.: org.jpos.util.Logger
+  logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="stdout" at="2023-07-31T14:58:48.319055" lifespan="510ms">
+    Mengirim request
+    Terima response : [081082200000020000000400000000000000073114584712345600001]
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2023-07-31T15:01:47.842429">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2023-07-31T15:04:57.958694800">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2023-07-31T15:08:08.074493100">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="org.jpos.q2.iso.ChannelAdaptor" at="2023-07-31T15:09:40.825669">
+  <warn>
+    channel-receiver-jpos-receive
+    Read timeout / EOF - reconnecting
+  </warn>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:47.787836500">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:49.063378">
+  <trace>
+    undeploying:C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T15:09:49.068375900">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:49.073362200">
+  <info>
+    undeployed:C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:49.076850300">
+  <trace>
+    undeploying:C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\60_channel.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:49.081399400">
+  <info>
+    undeployed:C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\60_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:49.084394400">
+  <trace>
+    undeploying:C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\40_mux_jpos.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T15:09:49.088398300">
+  <info>
+           OS: Windows 10 (10.0)
+         Java: 11.0.2 (Oracle Corporation) AES-secure
+  environment: default
+ process name: 30480@DESKTOP-M123Z1R
+    user name: lawencon1
+         host: DESKTOP-M123Z1R/192.168.30.227
+          cwd: C:\Development\Projects\DevJavaTypescript\finance\jpos-client
+   free space: 320.3 GiB
+      version: 2.1.8-SNAPSHOT (47232f0)
+     instance: e3581975-a2ac-4ea1-a90d-f61ea214abac
+       uptime: 00:11:06.617 (-1.000000)
+   processors: 8
+       drift : 0
+memory(t/u/f): 252/17/234
+     encoding: windows-1252
+     timezone: Asia/Bangkok (Indochina Time) +07:00
+watch service: sun.nio.fs.WindowsWatchService
+  metrics dir: log
+        clock: 1690790989 2023-07-31T08:09:49.073362200Z
+ thread count: 16
+ peak threads: 17
+ user threads: 10
+        Thread[Reference Handler,10,system]
+        Thread[Finalizer,8,system]
+        Thread[Signal Dispatcher,9,system]
+        Thread[Attach Listener,5,system]
+        Thread[SIGINT handler,9,system]
+        Thread[pool-1-thread-1,5,main]
+        Thread[Q2-e3581975-a2ac-4ea1-a90d-f61ea214abac,5,main]
+        Thread[FileSystemWatchService,5,main]
+        Thread[Timer-0,5,main]
+        Thread[channel-sender-jpos-send,5,main]
+        Thread[channel-receiver-jpos-receive,5,main]
+        Thread[SystemMonitor,5,main]
+        Thread[pool-2-thread-1,5,main]
+        Thread[DestroyJavaVM,5,main]
+        Thread[Q2-ShutdownHook,5,main]
+        Thread[Common-Cleaner,8,InnocuousThreadGroup]
+name-registrar:
+  tspace:default: org.jpos.space.TSpace
+    <key count='1'>jpos-send</key>
+    <key count='1'>jpos-channel.reconnect</key>
+     key-count: 2
+        gcinfo: 1,0
+  mux.jpos: org.jpos.q2.iso.QMUX
+    tx=1, rx=1, tx_expired=0, tx_pending=1, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=false, last=1690790327829, idle=661253ms
+    all min=19, max=19, mean=19.0000 stddev=0.0000 90%=19, 99%=19, 99.9%=19, 99.99%=19 tot=1 size=10752
+    ok min=19, max=19, mean=19.0000 stddev=0.0000 90%=19, 99%=19, 99.9%=19, 99.99%=19 tot=1 size=10752
+  Q2: org.jpos.q2.Q2
+  logger.Q2: org.jpos.util.Logger
+  logger.: org.jpos.util.Logger
+  logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:49.099756100" lifespan="10ms">
+  <info>
+    undeployed:C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\40_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:49.103770600">
+  <trace>
+    undeploying:C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\00_logger.xml
+  </trace>
+</log>
+</logger>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2023-07-31T15:09:57.641492800">
+  <info>
+    Q2 started, deployDir=C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:58.231337700" lifespan="572ms">
+  <version>
+    jPOS 2.1.8-SNAPSHOT master/47232f0 (2023-02-21 16:12:24 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:58.264843800" lifespan="20ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\40_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:58.276816800" lifespan="7ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\60_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:09:58.301876300" lifespan="20ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T15:09:58.364036200">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T15:09:58.538485700" lifespan="1ms">
+  <info>
+           OS: Windows 10 (10.0)
+         Java: 11.0.2 (Oracle Corporation) AES-secure
+  environment: default
+ process name: 24516@DESKTOP-M123Z1R
+    user name: lawencon1
+         host: DESKTOP-M123Z1R/192.168.30.227
+          cwd: C:\Development\Projects\DevJavaTypescript\finance\jpos-client
+   free space: 320.3 GiB
+      version: 2.1.8-SNAPSHOT (47232f0)
+     instance: c429dac4-8959-4342-a9db-e891f025188f
+       uptime: 00:00:01.395 (-1.000000)
+   processors: 8
+       drift : 0
+memory(t/u/f): 252/19/232
+     encoding: windows-1252
+     timezone: Asia/Bangkok (Indochina Time) +07:00
+watch service: sun.nio.fs.WindowsWatchService
+  metrics dir: log
+        clock: 1690790998 2023-07-31T08:09:58.418689100Z
+ thread count: 13
+ peak threads: 13
+ user threads: 8
+        Thread[Reference Handler,10,system]
+        Thread[Finalizer,8,system]
+        Thread[Signal Dispatcher,9,system]
+        Thread[Attach Listener,5,system]
+        Thread[main,5,main]
+        Thread[pool-1-thread-1,5,main]
+        Thread[Q2-c429dac4-8959-4342-a9db-e891f025188f,5,main]
+        Thread[FileSystemWatchService,5,main]
+        Thread[Timer-0,5,main]
+        Thread[channel-sender-jpos-send,5,main]
+        Thread[channel-receiver-jpos-receive,5,main]
+        Thread[SystemMonitor,5,main]
+        Thread[Common-Cleaner,8,InnocuousThreadGroup]
+name-registrar:
+  tspace:default: org.jpos.space.TSpace
+    <key count='1'>jpos-channel.ready</key>
+     key-count: 1
+        gcinfo: 0,0
+  mux.jpos: org.jpos.q2.iso.QMUX
+    tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+  Q2: org.jpos.q2.Q2
+  jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+    tx=0, rx=0, connects=1, last=0
+  channel.jpos-channel: link.rezimaulana.jpos.client.channel.Channel
+  logger.Q2: org.jpos.util.Logger
+  logger.: org.jpos.util.Logger
+  logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="stdout" at="2023-07-31T15:10:02.863014200" lifespan="512ms">
+    ---------Sending Request!---------
+    ---------Message is sent!---------
+    ---------Message is received!---------
+    Response : [081082200000020000000400000000000000073115100212345600001]
+</log>
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2023-07-31T15:12:23.871082700" lifespan="1ms">
+  <info>
+    Q2 started, deployDir=C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:12:24.440027" lifespan="554ms">
+  <version>
+    jPOS 2.1.8-SNAPSHOT master/47232f0 (2023-02-21 16:12:24 UTC) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:12:24.479348600" lifespan="23ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\40_mux_jpos.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:12:24.490451200" lifespan="7ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\60_channel.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-07-31T15:12:24.516950700" lifespan="22ms">
+  <info>
+    deploy: C:\Development\Projects\DevJavaTypescript\finance\jpos-client\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T15:12:24.576099100">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-07-31T15:12:24.743299900" lifespan="1ms">
+  <info>
+           OS: Windows 10 (10.0)
+         Java: 11.0.2 (Oracle Corporation) AES-secure
+  environment: default
+ process name: 6780@DESKTOP-M123Z1R
+    user name: lawencon1
+         host: DESKTOP-M123Z1R/192.168.30.227
+          cwd: C:\Development\Projects\DevJavaTypescript\finance\jpos-client
+   free space: 320.3 GiB
+      version: 2.1.8-SNAPSHOT (47232f0)
+     instance: 03ec90d2-01a4-4ad1-a80d-8ee306515836
+       uptime: 00:00:01.351 (-1.000000)
+   processors: 8
+       drift : 0
+memory(t/u/f): 252/33/218
+     encoding: windows-1252
+     timezone: Asia/Bangkok (Indochina Time) +07:00
+watch service: sun.nio.fs.WindowsWatchService
+  metrics dir: log
+        clock: 1690791144 2023-07-31T08:12:24.628983800Z
+ thread count: 13
+ peak threads: 13
+ user threads: 8
+        Thread[Reference Handler,10,system]
+        Thread[Finalizer,8,system]
+        Thread[Signal Dispatcher,9,system]
+        Thread[Attach Listener,5,system]
+        Thread[main,5,main]
+        Thread[pool-1-thread-1,5,main]
+        Thread[Q2-03ec90d2-01a4-4ad1-a80d-8ee306515836,5,main]
+        Thread[FileSystemWatchService,5,main]
+        Thread[Timer-0,5,main]
+        Thread[channel-sender-jpos-send,5,main]
+        Thread[channel-receiver-jpos-receive,5,main]
+        Thread[SystemMonitor,5,main]
+        Thread[Common-Cleaner,8,InnocuousThreadGroup]
+name-registrar:
+  tspace:default: org.jpos.space.TSpace
+    <key count='1'>jpos-channel.ready</key>
+     key-count: 1
+        gcinfo: 0,0
+  mux.jpos: org.jpos.q2.iso.QMUX
+    tx=0, rx=0, tx_expired=0, tx_pending=0, rx_expired=0, rx_pending=0, rx_unhandled=0, rx_forwarded=0, connected=true, last=0
+  Q2: org.jpos.q2.Q2
+  jpos-channel: org.jpos.q2.iso.ChannelAdaptor
+    tx=0, rx=0, connects=1, last=0
+  channel.jpos-channel: link.rezimaulana.jpos.client.channel.Channel
+  logger.Q2: org.jpos.util.Logger
+  logger.: org.jpos.util.Logger
+  logger.Q2.buffered: org.jpos.util.BufferedLogListener
+  </info>
+</log>
+<log realm="stdout" at="2023-07-31T15:12:29.126327500" lifespan="511ms">
+    ---------Sending Request!---------
+    ---------Message is sent!---------
+    ---------Message is received!---------
+    Response : [081082200000020000000400000000000000073115122812345600001]
+</log>

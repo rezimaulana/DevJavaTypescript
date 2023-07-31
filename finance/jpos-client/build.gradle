@@ -3,7 +3,7 @@ apply plugin: 'maven-publish'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 
-group = 'org.jpos.gateway'
+group = 'org.jpos.client'
 version = '2.1.8-SNAPSHOT'
 sourceCompatibility = 11
 targetCompatibility = 11
